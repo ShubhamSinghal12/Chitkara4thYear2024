@@ -1,6 +1,6 @@
 package Lec5;
 
-public class FirstBadVersion2 {
+public class FirstBadVersion3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
