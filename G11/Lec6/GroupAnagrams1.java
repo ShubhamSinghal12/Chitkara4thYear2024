@@ -1,19 +1,21 @@
-package Lec10;
+package Lec6;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class GroupAnagram {
+public class GroupAnagrams1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String st = "safhahfgadgh";
-		char[] cha = st.toCharArray();
-		Arrays.sort(cha);
-		String sst = String.valueOf(cha);
+		String s = "sadhajadgnasfsg";
+		char[] ch = s.toCharArray();
+		Arrays.sort(ch);
+		String sst = String.valueOf(ch);
 		System.out.println(sst);
+		
+
 	}
 	
 	public List<List<String>> groupAnagrams(String[] strs)
@@ -37,5 +39,6 @@ public class GroupAnagram {
 		return new ArrayList<>(hm.values());	
 		
 	}
+	
 
 }

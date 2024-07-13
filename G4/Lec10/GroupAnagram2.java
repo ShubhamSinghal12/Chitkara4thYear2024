@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class GroupAnagram {
+public class GroupAnagram2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,8 +14,8 @@ public class GroupAnagram {
 		Arrays.sort(cha);
 		String sst = String.valueOf(cha);
 		System.out.println(sst);
+		
 	}
-	
 	public List<List<String>> groupAnagrams(String[] strs)
 	{
 		HashMap<String, ArrayList<String>> hm = new HashMap<>();
