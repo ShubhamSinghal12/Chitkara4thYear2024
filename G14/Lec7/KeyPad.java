@@ -1,7 +1,5 @@
 package Lec7;
 
-import java.awt.RenderingHints.Key;
-
 public class KeyPad {
 
 	public static String[] map = {"","abc","def","ghi"};
