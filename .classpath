@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="G6"/>
 	<classpathentry kind="src" path="G11"/>
 	<classpathentry kind="src" path="G14"/>
+	<classpathentry kind="src" path="G9"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
